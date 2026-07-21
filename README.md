@@ -2,8 +2,8 @@
 
 A fullstack blogging platform (Option 3) with a Claude-powered chat assistant (AI Option A) grounded in each user's own data. Built for the Extropy home assessment.
 
-- **GitHub:** [_add your repo URL here after pushing_](https://github.com/brunowangdev/extropy-assessment)
-- **Live app:**[ _populated after first successful `pnpm run deploy`_](https://d3of4v61ri8rjm.cloudfront.net/)
+- **GitHub:** https://github.com/brunowangdev/extropy-assessment
+- **Live app:** https://d3of4v61ri8rjm.cloudfront.net/
 
 ---
 
