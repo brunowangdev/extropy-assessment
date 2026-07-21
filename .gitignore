@@ -1,0 +1,28 @@
+node_modules
+dist
+build
+.env
+.env.local
+.env.production
+.env.*.local
+*.log
+.DS_Store
+Thumbs.db
+
+# Vite
+.vite
+
+# CDK
+cdk.out
+cdk.context.json
+infra/outputs.json
+
+# Test coverage
+coverage
+
+# Editor
+.vscode
+.idea
+
+# OS
+Desktop.ini

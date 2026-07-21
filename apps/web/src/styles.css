@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    font-family:
+      ui-sans-serif,
+      system-ui,
+      -apple-system,
+      Segoe UI,
+      Roboto,
+      Helvetica,
+      Arial,
+      sans-serif;
+  }
+}
+
+.prose-content {
+  max-width: 65ch;
+  line-height: 1.7;
+}
+.prose-content h1 { font-size: 1.75rem; font-weight: 700; margin: 1.25rem 0 0.75rem; }
+.prose-content h2 { font-size: 1.375rem; font-weight: 600; margin: 1.25rem 0 0.5rem; }
+.prose-content h3 { font-size: 1.15rem; font-weight: 600; margin: 1rem 0 0.5rem; }
+.prose-content p { margin: 0.75rem 0; }
+.prose-content ul, .prose-content ol { padding-left: 1.5rem; margin: 0.5rem 0; }
+.prose-content ul { list-style: disc; }
+.prose-content ol { list-style: decimal; }
+.prose-content code { background: hsl(240 4.8% 95.9%); padding: 0.1em 0.35em; border-radius: 0.25rem; font-size: 0.9em; }
+.prose-content pre { background: hsl(240 4.8% 95.9%); padding: 0.75rem; border-radius: 0.5rem; overflow-x: auto; }
+.prose-content pre code { background: transparent; padding: 0; }
+.prose-content a { color: hsl(215 100% 40%); text-decoration: underline; }
+.prose-content blockquote { border-left: 3px solid hsl(240 5.9% 90%); padding-left: 0.75rem; color: hsl(240 3.8% 46.1%); margin: 0.75rem 0; }
